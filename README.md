@@ -1,4 +1,4 @@
-### Hi there, I'm Ryan! 👋 <img src="https://github.com/susui888/susui888.github.io/blob/main/assets/img/pikachuR.png" width="65" align="right">
+### Hi there, I'm Ryan! 👋 <img src="https://github.com/susui888/susui888.github.io/blob/main/assets/img/pikachuR.png" width="50" align="right">
 
 - 🚀 **Full-stack**: Kotlin & Swift
 - 🛠️ **CoolLib Architect**: Mobile & Spring Boot
