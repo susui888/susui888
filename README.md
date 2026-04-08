@@ -1,8 +1,14 @@
-### Hi there, I'm Ryan! 👋 <img src="https://github.com/susui888/susui888.github.io/blob/main/assets/img/pikachuR.png" width="50" align="right">
+### Ryan
+<img src="https://github.com/susui888/susui888.github.io/blob/main/assets/img/pikachuR.png" width="50" align="right">
 
-- 🚀 **Full-stack**: Kotlin & Swift
-- 🛠️ **CoolLib Architect**: Mobile & Spring Boot
-- 🎓 **Academic**: Math & CS @ Imperial College London
-- ✍️ **Experience**: 500+ hours of Tech Tutoring
-- 💬 **Interests**: Clean Architecture, HMM-LR, and Texas Hold'em
-- 🔗 **Portfolio**: [susui888.github.io](https://susui888.github.io)
+- Math & CS student at Imperial College London.
+
+- Architect of CoolLib, focusing on Kotlin (Android) and Swift (iOS) cross-platform synchronization.
+
+- Full-stack development with Spring Boot and modern reactive UI frameworks.
+
+- Extensive technical tutoring experience (500+ hours).
+
+- Interested in stochastic analysis, Clean Architecture, and poker strategy.
+
+- **Portfolio**: [susui888.github.io](https://susui888.github.io)
