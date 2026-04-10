@@ -1,13 +1,13 @@
 ### Ryan
 <img src="https://github.com/susui888/susui888.github.io/blob/main/assets/img/pikachuR.png" width="50" align="right">
 
-- Math & CS student at Imperial College London.
+- Education: Math & CS student at Imperial College London.
 
-- Architect of CoolLib, focusing on Kotlin (Android) and Swift (iOS) cross-platform synchronization.
+- Architecture: Lead architect of CoolLib, managing cross-platform synchronization between Kotlin (Android) and Swift (iOS) via a unified data hub.
 
-- Full-stack development with Spring Boot and modern reactive UI frameworks.
+- Full-Stack: Development with Spring Boot 4.0, PostgreSQL, and modern reactive UI frameworks (Jetpack Compose, SwiftUI).
 
-- Extensive technical tutoring experience (500+ hours).
+- DevOps & Infrastructure: Containerizing distributed backends using Docker and Docker Compose for consistent deployment and environment orchestration.
 
 - Interested in stochastic analysis, Clean Architecture, and poker strategy.
 
