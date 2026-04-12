@@ -11,4 +11,4 @@
 
 - Interested in stochastic analysis, Clean Architecture, and poker strategy.
 
-- **Portfolio**: [cv.ryansu.uk](https://cv.ryansu.uk)
+- **Portfolio**: [ryansu.uk](https://ryansu.uk)
