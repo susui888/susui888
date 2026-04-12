@@ -11,4 +11,4 @@
 
 - Interested in stochastic analysis, Clean Architecture, and poker strategy.
 
-- **Portfolio**: [susui888.github.io](https://susui888.github.io)
+- **Portfolio**: [cv.ryansu.uk](https://cv.ryansu.uk)
