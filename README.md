@@ -1,5 +1,5 @@
 ### Ryan
-<img src="https://github.com/susui888/susui888.github.io/blob/main/assets/img/pikachuR.png" width="50" align="right">
+<img src="https://ryansu.uk/assets/img/pikachuR.png" width="50" align="right">
 
 - Education: Math & CS student at Imperial College London.
 
