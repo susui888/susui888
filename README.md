@@ -4,10 +4,7 @@
 - **Education:** Mathematics & Computer Science (JMC) @ Imperial College London
 - **Core System:** Built **CoolLib** — an offline-first, native cross-platform library management system. Engineered a containerized Kotlin & Spring Boot REST API backend alongside dual native mobile clients via Jetpack Compose (Android) and SwiftUI (iOS 18 / Swift 6 concurrency). Integrated a live telemetry and edge analytics pipeline using Cloudflare Workers & D1.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ryansu.uk-6f42c1?style=flat&logo=safari&logoColor=white)](https://ryansu.uk) • 
-[![Live Monitor](https://img.shields.io/badge/Live_Monitor-Analytics-dc3545?style=flat&logo=chartmogul&logoColor=white)](https://ryansu.uk/analytics/) • 
-[![Email](https://img.shields.io/badge/Email-me%40ryansu.uk-0d6efd?style=flat&logo=minutemailer&logoColor=white)](mailto:me@ryansu.uk) • 
-[![System Architecture](https://img.shields.io/badge/System_Architecture-Topology-198754?style=flat&logo=cncf&logoColor=white)](https://ryansu.uk/spring-architecture/)
+[![Live Analytics](https://img.shields.io/badge/Live_Analytics-Monitor-dc3545?style=flat&logo=chartmogul&logoColor=white)](https://ryansu.uk/analytics/) • [![Android Client](https://img.shields.io/badge/Android_Client-Showcase-3DDC84?style=flat&logo=android&logoColor=white)](https://ryansu.uk/android-demo/) • [![iOS Client](https://img.shields.io/badge/iOS_Client-Showcase-007AFF?style=flat&logo=apple&logoColor=white)](https://ryansu.uk/ios-demo/) • [![System Architecture](https://img.shields.io/badge/System_Architecture-Ecosystem_Topology-198754?style=flat&logo=diagrams.net&logoColor=white)](https://ryansu.uk/spring-architecture/)
 
 ---
 
