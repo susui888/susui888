@@ -45,8 +45,3 @@ Backend:  Spring Boot • REST APIs • PostgreSQL • Actuator • JWT • Clea
 Infra:    Docker • Nginx • CI/CD (GitHub Actions) • Containerized Deployment
 Cloud:    Cloudflare Workers • D1 • R2 (S3 API) • Edge Computing • CDN • Zero Trust
 ```
-
-### Core Production Repositories
-- **[CoolLeaf](https://github.com/susui888/CoolLeaf)** (Backend): Layered Clean Architecture REST API using Kotlin/Spring Boot. Features atomicity pipelines for S3/R2 asset upload and Spring Boot Actuator for operational observability.
-- **[coollib-android](https://github.com/susui888/coollib-android)**: Native Android app using Jetpack Compose, Hilt (DI), and Room DB for offline-first local persistence.
-- **[coollib-ios](https://github.com/susui888/coollib-ios)**: Native iOS 18 client built with Swift 6 strict concurrency checks, SwiftUI, SwiftData, and the Observation framework.
