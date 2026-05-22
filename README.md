@@ -7,20 +7,42 @@
 
 ---
 
+### System Architecture Topology
+
 ```text
-[Architecture Topology]
-Mobile Clients (iOS/Android) ───► Cloudflare WAF/Tunnels ───► Nginx ───► Spring Boot Backend ───► PostgreSQL
-                                         │
-                                         └───► Workers + D1 (Edge Real-time Analytics)
+┌─────────────────────────────────────────────────────────────────────────┐
+│                          Cloudflare Edge Layer                          │
+│     [ Workers + D1 Telemetry Ingestion ]     [ R2 Media Storage ]       │
+└────────────────────────────────────┬────────────────────────────────────┘
+                                     │ (Tunnels / Zero Trust)
+                                     ▼
+                        ┌─────────────────────────┐
+                        │       Nginx Proxy       │
+                        └────────────┬────────────┘
+                                     ▼
+                        ┌─────────────────────────┐
+                        │   Spring Boot Backend   │
+                        │   (Clean Architecture)  │
+                        └────────────┬────────────┘
+                                     ▼
+                        ┌─────────────────────────┐
+                        │    PostgreSQL Database  │
+                        └─────────────────────────┘
+                                     ▲
+                                     │ (Reactive Sync / REST)
+┌────────────────────────────────────┴────────────────────────────────────┐
+│                             Native Clients                              │
+│       [ coollib-android (Compose) ]        [ coollib-ios (SwiftUI) ]    │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Technical Stack
 
 ```text
-Backend & Infra :: Kotlin • Java • Spring Boot • PostgreSQL • Docker • Nginx • GitHub Actions
-Edge & Cloud    :: Cloudflare Workers • D1 (Edge SQL) • R2 (S3 API Object Storage) • Zero Trust
-Mobile Apps     :: iOS (Swift 6, SwiftUI, SwiftData, Observation) • Android (Kotlin, Compose, Room, Hilt)
-Other           :: Haskell • C  • Real Analysis • Group Theory
+Mobile:   Kotlin (Compose, Hilt, Room) • Swift (SwiftUI, Combine, SwiftData)
+Backend:  Spring Boot • REST APIs • PostgreSQL • Actuator • JWT • Clean Architecture
+Infra:    Docker • Nginx • CI/CD (GitHub Actions) • Containerized Deployment
+Cloud:    Cloudflare Workers • D1 • R2 (S3 API) • Edge Computing • CDN • Zero Trust
 ```
 
 ### Core Production Repositories
