@@ -8,7 +8,7 @@
 
 ---
 
-### [System Architecture Topology](https://ryansu.uk/spring-architecture/)
+### System Architecture Topology
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────┐
