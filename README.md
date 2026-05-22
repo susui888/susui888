@@ -3,11 +3,11 @@
 
 - **Education:** Mathematics & Computer Science (JMC) @ Imperial College London
 - **Core System:** Built **CoolLib** — an offline-first, native cross-platform library management system. Engineered a containerized Kotlin & Spring Boot REST API backend alongside dual native mobile clients via Jetpack Compose (Android) and SwiftUI (iOS 18 / Swift 6 concurrency). Integrated a live telemetry and edge analytics pipeline using Cloudflare Workers & D1.
-- **Links:** [Portfolio Website](https://ryansu.uk) • [me@ryansu.uk](mailto:me@ryansu.uk)
+- **Links:** [Portfolio Website](https://ryansu.uk) • [Live Monitor](https://ryansu.uk/analytics/) • [me@ryansu.uk](mailto:me@ryansu.uk)
 
 ---
 
-### System Architecture Topology
+### [System Architecture Topology](https://ryansu.uk/spring-architecture/)
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────┐
