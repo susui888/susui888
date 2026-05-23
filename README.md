@@ -138,10 +138,17 @@ Backend:  Spring Boot • REST APIs • PostgreSQL • Actuator • JWT • Clea
 Infra:    Docker • Nginx • CI/CD (GitHub Actions) • Containerized Deployment
 Cloud:    Cloudflare Workers • D1 • R2 (S3 API) • Edge Computing • CDN • Zero Trust
 ```
+
 <p>
-  <img src="https://img.shields.io/badge/Kotlin-2.0-purple"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-3.x-green"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-16-blue"/>
-  <img src="https://img.shields.io/badge/Cloudflare-Workers-orange"/>
+  <!-- Ecosystem & Multiplatform -->
+  <img src="https://img.shields.io/badge/Kotlin-2.2-purple"/>&nbsp;
+  <img src="https://img.shields.io/badge/Jetpack_Compose-Android-3DDC84"/>&nbsp;
+  <img src="https://img.shields.io/badge/SwiftUI-iOS-0D96F6"/>&nbsp;
+  <img src="https://img.shields.io/badge/Spring_Boot-4.0-green"/>
+</p>
+<p>
+  <!-- Infra & Edge Computing -->
+  <img src="https://img.shields.io/badge/PostgreSQL-18-blue"/>&nbsp;
+  <img src="https://img.shields.io/badge/Cloudflare-Workers--D1--R2-orange"/>&nbsp;
   <img src="https://img.shields.io/badge/Docker-Containerized-2496ED"/>
 </p>
