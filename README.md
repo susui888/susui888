@@ -1,8 +1,8 @@
 ### Ryan Su 
 <img src="https://ryansu.uk/assets/img/pikachuR.png" width="50" align="right">
 
-- **Education:** Mathematics & Computer Science (JMC) @ Imperial College London
-- **Core System:** Built **CoolLib** — an offline-first, native cross-platform library management system. Engineered a containerized Kotlin & Spring Boot REST API backend alongside dual native mobile clients via Jetpack Compose (Android) and SwiftUI (iOS 18 / Swift 6 concurrency). Integrated a live telemetry and edge analytics pipeline using Cloudflare Workers & D1.
+- **Education:** *&nbsp;&nbsp;&nbsp;&nbsp;Mathematics & Computer Science (JMC) @ Imperial College London*
+- **The Stack:** *&nbsp;&nbsp;&nbsp;&nbsp;Built **CoolLib** — a native cross-platform library management system. Engineered a containerized Kotlin & Spring Boot REST API backend alongside dual native mobile clients via Jetpack Compose and SwiftUI. Integrated a live telemetry and edge analytics pipeline using Cloudflare Workers & D1.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Live Analytics](https://img.shields.io/badge/Live_Analytics-Monitor-dc3545?style=flat&logo=chartmogul&logoColor=white)](https://ryansu.uk/analytics/)&nbsp;&nbsp;&nbsp;&nbsp;
