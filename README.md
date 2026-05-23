@@ -129,10 +129,10 @@ flowchart LR
 
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
-<a href="https://ryansu.uk/analytics/">
-  <img src="https://svg-status.ryansu.uk/?v=20260523" alt="Infrastructure Mini Monitor" width="520" />
-</a>
 
+<a href="https://ryansu.uk/analytics/">
+  <img src="https://images.weserv.nl/?url=https://svg-status.ryansu.uk/&n=-1" alt="Infrastructure Mini Monitor" width="520" />
+</a>
 ### Technical Stack
 
 ```text
