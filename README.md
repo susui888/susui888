@@ -131,7 +131,7 @@ flowchart LR
 ```
 
 <a href="https://ryansu.uk/analytics/">
-  <img src="https://images.weserv.nl/?url=https://svg-status.ryansu.uk/&n=-1" alt="Infrastructure Mini Monitor" width="520" />
+  <img src="https://svg-status.ryansu.uk/?v=20260523" alt="Infrastructure Mini Monitor" width="520" />
 </a>
 
 ### Technical Stack
