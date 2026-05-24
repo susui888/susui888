@@ -1,13 +1,23 @@
-### Ryan Su 
+### Ryan Su
 <img src="https://ryansu.uk/assets/img/pikachuR.png" width="50" align="right">
 
-- **Education:** *&nbsp;&nbsp;&nbsp;&nbsp;Mathematics & Computer Science (JMC) @ Imperial College London*
-- **The Stack:** *&nbsp;&nbsp;&nbsp;&nbsp;Built **CoolLib** — a native cross-platform library management system. Engineered a containerized Kotlin & Spring Boot REST API backend alongside dual native mobile clients via Jetpack Compose and SwiftUI. Integrated a live telemetry and edge analytics pipeline using Cloudflare Workers & D1.*
+*Built **CoolLib** — a distributed library platform with native Android/iOS clients, containerized Spring Boot services, and real-time edge telemetry powered by Cloudflare Workers & D1.*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Live Analytics](https://img.shields.io/badge/Live_Analytics-Monitor-dc3545?style=flat&logo=chartmogul&logoColor=white)](https://ryansu.uk/analytics/)&nbsp;&nbsp;&nbsp;&nbsp;
-[![Android Client](https://img.shields.io/badge/Android-Showcase-3DDC84?style=flat&logo=android&logoColor=white)](https://ryansu.uk/android-demo/)&nbsp;&nbsp;&nbsp;&nbsp;
-[![iOS Client](https://img.shields.io/badge/iOS-Showcase-007AFF?style=flat&logo=apple&logoColor=white)](https://ryansu.uk/ios-demo/)&nbsp;&nbsp;&nbsp;&nbsp;
+<p align="left">
+  <a href="https://ryansu.uk/analytics/">
+    <img src="https://img.shields.io/badge/Live_Infrastructure-Monitor-dc3545?style=for-the-badge&logo=chartmogul&logoColor=white"/>
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://ryansu.uk/android-demo/">
+    <img src="https://img.shields.io/badge/Android-UI_Demo-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+  </a>&nbsp;&nbsp;&nbsp;
+  <a href="https://ryansu.uk/ios-demo/">
+    <img src="https://img.shields.io/badge/iOS-UI_Demo-007AFF?style=flat-square&logo=apple&logoColor=white"/>
+  </a>
+</p>
+
 
 ---
 
@@ -130,29 +140,28 @@ flowchart LR
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
+### Live infrastructure telemetry rendered dynamically via Cloudflare Workers.
+
 <a href="https://ryansu.uk/analytics/">
-  <img src="https://svg-status.ryansu.uk/?v=20260523" alt="Infrastructure Mini Monitor" width="460" />
+  <img src="https://svg-status.ryansu.uk/" alt="Infrastructure Mini Monitor" width="520" />
 </a>
+
+### Infrastructure Highlights
+
+- Edge analytics pipeline using Cloudflare Workers + D1
+- Live telemetry ingestion from Spring Boot Actuator
+- Containerized deployment with Docker and Nginx
+- CDN-backed static delivery via Cloudflare R2
+- Native Android/iOS clients sharing unified backend services
 
 ### Technical Stack
 
+
 ```text
-Mobile:   Kotlin (Compose, Hilt, Room) • Swift (SwiftUI, Combine, SwiftData)
-Backend:  Spring Boot • REST APIs • PostgreSQL • Actuator • JWT • Clean Architecture
-Infra:    Docker • Nginx • CI/CD (GitHub Actions) • Containerized Deployment
-Cloud:    Cloudflare Workers • D1 • R2 (S3 API) • Edge Computing • CDN • Zero Trust
+Mobile          Kotlin • Jetpack Compose • SwiftUI
+Backend         Spring Boot • PostgreSQL • JWT • REST APIs
+Infrastructure  Docker • Nginx • GitHub Actions • CI/CD
+Cloud Edge      Cloudflare Workers • D1 • R2 • CDN
+Observability   Spring Actuator • Edge Telemetry Pipeline
 ```
 
-<p>
-  <!-- Ecosystem & Multiplatform -->
-  <img src="https://img.shields.io/badge/Kotlin-2.2-purple"/>&nbsp;
-  <img src="https://img.shields.io/badge/Jetpack_Compose-Android-3DDC84"/>&nbsp;
-  <img src="https://img.shields.io/badge/SwiftUI-iOS-0D96F6"/>&nbsp;
-  <img src="https://img.shields.io/badge/Spring_Boot-4.0-green"/>
-</p>
-<p>
-  <!-- Infra & Edge Computing -->
-  <img src="https://img.shields.io/badge/PostgreSQL-18-blue"/>&nbsp;
-  <img src="https://img.shields.io/badge/Cloudflare-Workers--D1--R2-orange"/>&nbsp;
-  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED"/>
-</p>
