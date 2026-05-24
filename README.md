@@ -140,7 +140,7 @@ flowchart LR
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
-### Live infrastructure telemetry rendered dynamically via Cloudflare Workers.
+### Live Edge Telemetry
 
 <a href="https://ryansu.uk/analytics/">
   <img src="https://svg-status.ryansu.uk/" alt="Infrastructure Mini Monitor" width="520" />
