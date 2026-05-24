@@ -27,39 +27,29 @@
 flowchart LR
 
                 subgraph Clients ["<span style='color:#000'><b>Clients</b></span>"]
-                A(Android
-                Compose)
-                B(iOS
-                SwiftUI)
+                A(Android<br>Compose)
+                B(iOS<br>SwiftUI)
                 end
 
 
                 subgraph CF1 ["<span style='color:#000'><b>Cloudflare Edge (Delivery)</b></span>"]
-                G1{CDN
-                Cache}
-                R2[(R2
-                Storage)]
+                G1{CDN<br>Cache}
+                R2[(R2<br>Storage)]
                 C{Tunnel}
                 end
 
 
                 subgraph CF2 ["<span style='color:#000'><b>Cloudflare Observability</b></span>"]
-                W(Worker
-                Monitor)
-                D1[(D1
-                Metrics)]
-                MON(Monitor
-                Dashboard)
+                W(Worker<br>Monitor)
+                D1[(D1<br>Metrics)]
+                MON(Monitor<br>Dashboard)
                 end
 
 
                 subgraph Docker ["<span style='color:#000'><b>Docker Infrastructure</b></span>"]
-                D(Nginx
-                Proxy)
-                E(Spring
-                Boot)
-                H[(Postgre
-                SQL)]
+                D(Nginx<br>Proxy)
+                E(Spring<br>Boot)
+                H[(Postgre<br>SQL)]
                 end
 
 
