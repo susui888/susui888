@@ -4,18 +4,11 @@
 *Built **CoolLib** — a distributed library platform with native Android/iOS clients, containerized Spring Boot services, and real-time edge telemetry powered by Cloudflare Workers & D1.*
 
 <p align="left">
-  <a href="https://ryansu.uk/analytics/">
-    <img src="https://img.shields.io/badge/Live_Infrastructure-Monitor-dc3545?style=for-the-badge&logo=chartmogul&logoColor=white"/>
-  </a>
+  <a href="https://ryansu.uk/analytics/"><img src="https://img.shields.io/badge/Live_Infrastructure-Monitor-dc3545?style=for-the-badge&logo=chartmogul&logoColor=white"/></a>
 </p>
 
 <p align="left">
-  <a href="https://ryansu.uk/android-demo/">
-    <img src="https://img.shields.io/badge/Android-UI_Demo-3DDC84?style=flat-square&logo=android&logoColor=white"/>
-  </a>&nbsp;&nbsp;&nbsp;
-  <a href="https://ryansu.uk/ios-demo/">
-    <img src="https://img.shields.io/badge/iOS-UI_Demo-007AFF?style=flat-square&logo=apple&logoColor=white"/>
-  </a>
+  <a href="https://ryansu.uk/android-demo/"><img src="https://img.shields.io/badge/Android-UI_Demo-3DDC84?style=flat-square&logo=android&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/ios-demo/"><img src="https://img.shields.io/badge/iOS-UI_Demo-007AFF?style=flat-square&logo=apple&logoColor=white"/></a>
 </p>
 
 
