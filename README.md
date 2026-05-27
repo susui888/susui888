@@ -45,6 +45,10 @@ flowchart LR
                 H[(Postgre<br>SQL)]
                 end
 
+                click A "https://github.com/susui888/coollib-android"
+                click B "https://github.com/susui888/coollib-ios"
+                click E "https://github.com/susui888/CoolLeaf"
+                click W "https://github.com/susui888/coollib-dashboards"
 
                 %% =========================
                 %% FLOW
