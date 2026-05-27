@@ -130,7 +130,7 @@ flowchart LR
 ### Live Edge Telemetry
 
 <a href="https://ryansu.uk/analytics/">
-  <img src="https://svg-status.ryansu.uk?v=1/" alt="Infrastructure Mini Monitor" width="520" />
+  <img src="https://svg-status.ryansu.uk?v=1/" alt="Infrastructure Mini Monitor" width="500" />
 </a>
 
 ### Infrastructure Highlights
