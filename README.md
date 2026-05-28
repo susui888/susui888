@@ -127,11 +127,10 @@ flowchart LR
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
-### Live Edge Telemetry
+### System Telemetry
 
-<a href="https://ryansu.uk/analytics/">
-  <img src="https://svg-status.ryansu.uk?v=1/" alt="Infrastructure Mini Monitor" width="500" />
-</a>
+<p align="left"><a href="https://ryansu.uk/analytics/"><img src="https://svg-status.ryansu.uk?v=1/" alt="Infrastructure Mini Monitor" width="49%" /></a><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/github-telemetry.svg" alt="GitHub Telemetry Monitor" width="49%" /></a></p>
+
 
 ### Infrastructure Highlights
 
