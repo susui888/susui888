@@ -129,10 +129,10 @@ flowchart LR
 
 ### EDGE PLATFORM TELEMETRY
 
-<p align="left"><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/system-telemetry.svg" alt="Infrastructure Mini Monitor" width="520" /></a></p>
+<p align="left"><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/system-telemetry.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
 
 ### DEVELOPMENT METRICS
-<p><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/github-telemetry.svg" alt="GitHub Telemetry Monitor" width="510" /></a></p>
+<p><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/github-telemetry.svg" alt="GitHub Telemetry Monitor" width="560" /></a></p>
 
 
 ### Infrastructure Highlights
