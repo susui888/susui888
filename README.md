@@ -1,7 +1,7 @@
 ### Ryan Su
 <img src="https://ryansu.uk/assets/img/pikachuR.png" width="50" align="right">
 
-*Built **CoolLib** — a distributed library platform with native Android/iOS clients, containerized Spring Boot services, and real-time edge telemetry powered by Cloudflare Workers & D1.*
+*Software Engineer specializing in mobile, backend, and cloud platforms. Built CoolLib, a distributed system combining native Android/iOS applications, Spring Boot microservices, Cloudflare edge infrastructure, real-time telemetry, and automated CI/CD delivery.*
 
 <p align="left">
   <a href="https://ryansu.uk/analytics/"><img src="https://img.shields.io/badge/Live_Infrastructure-Monitor-dc3545?style=for-the-badge"/></a>
