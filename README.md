@@ -148,9 +148,10 @@ flowchart LR
 
 ```text
 Mobile          Kotlin • Jetpack Compose • SwiftUI
-Backend         Spring Boot • PostgreSQL • JWT • REST APIs
-Infrastructure  Docker • Nginx • GitHub Actions • CI/CD
-Cloud Edge      Cloudflare Workers • D1 • R2 • CDN
-Observability   Spring Actuator • Edge Telemetry Pipeline
+Backend         Java • Spring Boot • PostgreSQL • REST APIs
+Frontend        TypeScript • Astro
+Cloud & Edge    Cloudflare Workers • D1 • R2 • CDN
+Platform        Docker • Nginx • GitHub Actions • CI/CD
+Observability   Telemetry Pipelines • Metrics • Logging
 ```
 
