@@ -70,6 +70,8 @@ flowchart LR
                 D1 --> MON
                 W --> MON
 
+                A -. telemetry .-> W
+                B -. telemetry .-> W
 
                 %% =========================
                 %% animations
