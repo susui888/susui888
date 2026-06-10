@@ -19,43 +19,34 @@
 ```mermaid
 flowchart LR
 
-                subgraph Clients ["<span style='color:#000'><b>Clients</b></span>"]
+                subgraph Clients ["`**Mobile Clients**`"]
                 A(Android<br>Compose)
                 B(iOS<br>SwiftUI)
                 end
 
-
-                subgraph CF1 ["<span style='color:#000'><b>Cloudflare Edge (Delivery)</b></span>"]
+                subgraph CF1 ["`**Cloudflare Edge (Delivery)**`"]
                 G1{CDN<br>Cache}
                 R2[(R2<br>Storage)]
                 C{Tunnel}
                 end
 
-
-                subgraph CF2 ["<span style='color:#000'><b>Cloudflare Observability</b></span>"]
-                W(Worker<br>Monitor)
-                D1[(D1<br>Metrics)]
-                MON(Monitor<br>Dashboard)
+                subgraph CF2 ["`**Cloudflare Observability**`"]
+                W(Telemetry<br>Gateway)
+                D1[(Metrics<br>Store)]
+                MON(Analytics<br>Dashboard)
                 end
 
-
-                subgraph Docker ["<span style='color:#000'><b>Docker Infrastructure</b></span>"]
+                subgraph Docker ["`**Docker Infrastructure**`"]
                 D(Nginx<br>Proxy)
                 E(Spring<br>Boot)
                 H[(Postgre<br>SQL)]
                 end
 
-                click A "https://github.com/susui888/coollib-android"
-                click B "https://github.com/susui888/coollib-ios"
-                click E "https://github.com/susui888/CoolLeaf"
-                click W "https://github.com/susui888/coollib-dashboards"
-
                 %% =========================
                 %% FLOW
                 %% =========================
 
-                A e1@--> G1
-                B e2@--> G1
+                Clients e1@--> G1
 
                 G1 -- "Static Assets" --> R2
                 G1 -- "API Requests" --> C
@@ -70,8 +61,8 @@ flowchart LR
                 D1 --> MON
                 W --> MON
 
-                A -. telemetry .-> W
-                B -. telemetry .-> W
+                Clients e2@-. telemetry .-> W
+
 
                 %% =========================
                 %% animations
@@ -127,6 +118,11 @@ flowchart LR
                 %% =========================
 
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
+
+                click A "https://github.com/susui888/coollib-android"
+                click B "https://github.com/susui888/coollib-ios"
+                click E "https://github.com/susui888/CoolLeaf"
+                click W "https://github.com/susui888/coollib-dashboards"
 ```
 
 ### EDGE PLATFORM TELEMETRY
