@@ -17,7 +17,7 @@
 ### System Architecture
 
 ```mermaid
-flowchart LR
+ flowchart LR
 
                 subgraph Clients ["`**Mobile Clients**`"]
                 A(Android<br>Compose)
@@ -37,7 +37,7 @@ flowchart LR
                 end
 
                 subgraph Docker ["`**Docker Infrastructure**`"]
-                D(Nginx<br>Proxy)
+                %%D(Nginx<br>Proxy)
                 E(Spring<br>Boot)
                 H[(Postgre<br>SQL)]
                 end
@@ -51,8 +51,8 @@ flowchart LR
                 G1 -- "Static Assets" --> R2
                 G1 -- "API Requests" --> C
 
-                C e3@--> D
-                D --> E
+                C e3@--> E
+                %%D --> E
                 E --> H
 
                 %% Observability (clean separation)
@@ -104,7 +104,7 @@ flowchart LR
                 %% Nginx + Spring + PostgreSQL = ONE SYSTEM
                 %% =========================
 
-                style D fill:#64748b,stroke:#334155,stroke-width:2px,color:#fff
+                %%style D fill:#64748b,stroke:#334155,stroke-width:2px,color:#fff
                 style E fill:#475569,stroke:#334155,stroke-width:2px,color:#fff
                 style H fill:#334155,stroke:#334155,stroke-width:2px,color:#fff
 
