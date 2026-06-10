@@ -59,7 +59,7 @@ flowchart LR
                 E e4@--> W
                 W --> D1
                 D1 --> MON
-                W --> MON
+                %%W --> MON
 
                 Clients e2@-. telemetry .-> W
 
