@@ -4,7 +4,7 @@
 *Software Engineer specializing in mobile, backend, and cloud platforms. Built CoolLib, a distributed system combining native Android/iOS applications, Spring Boot microservices, Cloudflare edge infrastructure, real-time telemetry, and automated CI/CD delivery.*
 
 <p align="left">
-  <a href="https://ryansu.uk/analytics/"><img src="https://img.shields.io/badge/Live-Infra_Monitor-dc3545?style=for-the-badge"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/analytics-github/"><img src="https://img.shields.io/badge/GitHub-Analytics-6f42c1?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://ryansu.uk/analytics/infrastructure"><img src="https://img.shields.io/badge/Infra-Monitor-dc3545?style=for-the-badge"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/analytics/mobile"><img src="https://img.shields.io/badge/Mobile-Analytics-007aff?style=for-the-badge&logo=apple&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/analytics/github/"><img src="https://img.shields.io/badge/GitHub-Analytics-6f42c1?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 <p align="left">
