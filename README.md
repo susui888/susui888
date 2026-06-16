@@ -33,13 +33,17 @@
                 subgraph CF2 ["`**Cloudflare Observability**`"]
                 W(Telemetry\nGateway)
                 D1[(Metrics\nStore)]
+                AL(Alert\nEngine)
                 MON(Analytics\nDashboard)
                 end
 
                 subgraph Docker ["`**Docker Infrastructure**`"]
-                %%D(Nginx\nProxy)
                 E(Spring\nBoot)
                 H[(Postgre\nSQL)]
+                end
+
+                subgraph External ["`**External Services**`"]
+                N1(Email &\nPagerDuty)
                 end
 
                 %% =========================
@@ -52,26 +56,27 @@
                 G1 -- "API Requests" --> C
 
                 C e3@--> E
-                %%D --> E
                 E --> H
 
-                %% Observability (clean separation)
+                %% Observability
                 E e4@--> W
+                Clients e2@-. Telemetry .-> W
+
                 W --> D1
                 D1 --> MON
-                %%W --> MON
 
-                Clients e2@-. telemetry .-> W
+                %% Alert Engine reads data from D1
+                D1 --> AL
 
+                %% Corrected Alert Flow: Trigger outputs & Update Dashboard
+                AL --> N1
+                AL --> MON
 
-                %% =========================
-                %% animations
-                %% =========================
-
-                e1@{ animation: slow }
-                e2@{ animation: slow }
-                e3@{ animation: slow }
-                e4@{ animation: slow }
+                %% Edge animations
+                e1@{ animate: true }
+                e2@{ animate: true }
+                e3@{ animate: true }
+                e4@{ animate: true }
 
 
                 %% =========================
@@ -92,26 +97,31 @@
 
 
                 %% =========================
-                %% OBSERVABILITY (light blue system)
+                %% OBSERVABILITY (unified blue system - AL deep indigo)
                 %% =========================
 
                 style W fill:#93c5fd,stroke:#3b82f6,stroke-width:2px,color:#fff
                 style D1 fill:#bfdbfe,stroke:#60a5fa,stroke-width:1px,color:#fff
                 style MON fill:#3b82f6,stroke:#2563eb,stroke-width:2px,color:#fff
+                style AL fill:#1e40af,stroke:#1e3a8a,stroke-width:2px,color:#fff
 
                 %% =========================
-                %% BACKEND (UNIFIED SYSTEM COLOR)
-                %% Nginx + Spring + PostgreSQL = ONE SYSTEM
+                %% BACKEND (unified gray system)
                 %% =========================
 
-                %%style D fill:#64748b,stroke:#334155,stroke-width:2px,color:#fff
                 style E fill:#475569,stroke:#334155,stroke-width:2px,color:#fff
                 style H fill:#334155,stroke:#334155,stroke-width:2px,color:#fff
+
+                %% =========================
+                %% EXTERNAL NOTIFICATIONS (Clean Light Blue / Translucent)
+                %% =========================
+                style N1 fill:#eff6ff,stroke:#60a5fa,stroke-width:1.5px,stroke-dasharray: 5 5,color:#1e40af
 
                 style Clients fill:#f8fafc
                 style CF1 fill:#f1f5f9
                 style CF2 fill:#f8fafc
                 style Docker fill:#f1f5f9
+                style External fill:none,stroke:#cbd5e1,stroke-width:1px,stroke-dasharray: 3 3
 
                 %% =========================
                 %% LINKS
