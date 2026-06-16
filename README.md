@@ -38,12 +38,12 @@
                 end
 
                 subgraph Docker ["`**Docker Infrastructure**`"]
-                E(Spring\nBoot)
+                E("`**<span style='font-size:2em;color:white;'>Spring<br>Boot</span>**`")
                 H[(Postgre\nSQL)]
                 end
 
                 subgraph External ["`**External Services**`"]
-                N1(Email &\nPagerDuty)
+                N1(Email\nPagerDuty)
                 end
 
                 %% =========================
@@ -64,7 +64,7 @@
 
                 W --> D1
                 D1 --> MON
-
+                
                 %% Alert Engine reads data from D1
                 D1 --> AL
 
@@ -128,11 +128,6 @@
                 %% =========================
 
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
-
-                click A "https://github.com/susui888/coollib-android"
-                click B "https://github.com/susui888/coollib-ios"
-                click E "https://github.com/susui888/CoolLeaf"
-                click W "https://github.com/susui888/coollib-dashboards"
 ```
 
 ### EDGE PLATFORM TELEMETRY
