@@ -132,11 +132,13 @@
 
 ### EDGE PLATFORM TELEMETRY
 
-<p align="left"><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/system-telemetry.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
+<p align="left"><a href="https://ryansu.uk/analytics/infrastructure/"><img src="https://status.ryansu.uk/svg/system-telemetry.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
 
 ### DEVELOPMENT METRICS
-<p><a href="https://ryansu.uk/analytics/"><img src="https://status.ryansu.uk/svg/github-telemetry.svg" alt="GitHub Telemetry Monitor" width="560" /></a></p>
+<p><a href="https://ryansu.uk/analytics/github/"><img src="https://status.ryansu.uk/svg/github-telemetry.svg" alt="GitHub Telemetry Monitor" width="560" /></a></p>
 
+### SYSTEM INCIDENTS
+<p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
 ### Infrastructure Highlights
 
