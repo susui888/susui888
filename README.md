@@ -11,7 +11,7 @@
   <a href="https://ryansu.uk/demo/android-demo/"><img src="https://img.shields.io/badge/Android-UI_Demo-3DDC84?style=flat-square&logo=android&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/demo/ios-demo/"><img src="https://img.shields.io/badge/iOS-UI_Demo-007AFF?style=flat-square&logo=apple&logoColor=white"/></a>
 </p>
 
-## Architecture
+## <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/diagram-3.svg" width="22" height="22" style="vertical-align: middle; fill: #58a6ff;" /> &nbsp;&nbsp;Architecture
 
 ```mermaid
  flowchart LR
@@ -127,17 +127,17 @@
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
-## PLATFORM
+## <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/hdd-network.svg" width="22" height="22" style="vertical-align: middle; fill: #58a6ff;" /> &nbsp;&nbsp;PLATFORM
 
 <p align="left"><a href="https://ryansu.uk/analytics/infrastructure/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-spring.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
 
-## DEVELOPMENT
+## <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/code-slash.svg" width="22" height="22" style="vertical-align: middle; fill: #58a6ff;" /> &nbsp;&nbsp;DEVELOPMENT
 <p><a href="https://ryansu.uk/analytics/github/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-github.svg" alt="GitHub Telemetry Monitor" width="560" /></a></p>
 
-## INCIDENTS
+## <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/exclamation-triangle-fill.svg" width="21" height="21" style="vertical-align: middle; fill: #58a6ff;" /> &nbsp;&nbsp;INCIDENTS
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
-## Highlights
+## <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/lightning-charge-fill.svg" width="20" height="20" style="vertical-align: middle; fill: #58a6ff;" /> &nbsp;&nbsp;Highlights
 - **Edge Telemetry Ingestion** – Real-time metrics tracking powered by Cloudflare Workers and D1 database.
 - **Spring Actuator Pipeline** – Live operational diagnostics broadcasted directly from core server nodes.
 - **Containerized Architecture** – Predictable microservice deployment pipelines built via Docker and Nginx.
@@ -146,7 +146,7 @@
 - **Automated Quality Gates** – Continuous test orchestration ensuring strict regression coverage across active repositories.
 - **Live System Observability** – Monotonically tracking core telemetry pulse to monitor continuous system uptime.
 
-## Stack
+## <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/cpu-fill.svg" width="22" height="22" style="vertical-align: middle; fill: #58a6ff;" /> &nbsp;&nbsp;Stack
 ```text
 Mobile Clients   Kotlin (Android) • Jetpack Compose • SwiftUI (iOS)
 Core Backend     Java 21 • Spring Boot 3 • PostgreSQL • JPA / Hibernate
