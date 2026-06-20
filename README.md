@@ -130,7 +130,7 @@
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
-### EDGE PLATFORM TELEMETRY
+### PLATFORM TELEMETRY
 
 <p align="left"><a href="https://ryansu.uk/analytics/infrastructure/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-spring.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
 
