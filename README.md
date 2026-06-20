@@ -11,9 +11,6 @@
   <a href="https://ryansu.uk/demo/android-demo/"><img src="https://img.shields.io/badge/Android-UI_Demo-3DDC84?style=flat-square&logo=android&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/demo/ios-demo/"><img src="https://img.shields.io/badge/iOS-UI_Demo-007AFF?style=flat-square&logo=apple&logoColor=white"/></a>
 </p>
 
-
----
-
 ## Architecture
 
 ```mermaid
@@ -140,7 +137,7 @@
 ## INCIDENTS
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
-## Infrastructure Highlights
+## Highlights
 - **Edge Telemetry Ingestion** – Real-time metrics tracking powered by Cloudflare Workers and D1 database.
 - **Spring Actuator Pipeline** – Live operational diagnostics broadcasted directly from core server nodes.
 - **Containerized Architecture** – Predictable microservice deployment pipelines built via Docker and Nginx.
@@ -149,7 +146,7 @@
 - **Automated Quality Gates** – Continuous test orchestration ensuring strict regression coverage across active repositories.
 - **Live System Observability** – Monotonically tracking core telemetry pulse to monitor continuous system uptime.
 
-## Technical Stack
+## Stack
 ```text
 Mobile Clients   Kotlin (Android) • Jetpack Compose • SwiftUI (iOS)
 Core Backend     Java 21 • Spring Boot 3 • PostgreSQL • JPA / Hibernate
