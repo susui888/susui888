@@ -134,21 +134,20 @@
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
 ## Highlights
-- **Edge Telemetry Ingestion** – Real-time metrics tracking powered by Cloudflare Workers and D1 database.
-- **Spring Actuator Pipeline** – Live operational diagnostics broadcasted directly from core server nodes.
-- **Containerized Architecture** – Predictable microservice deployment pipelines built via Docker and Nginx.
-- **Optimized Content Delivery** – Low-latency asset streaming backed by globally distributed Cloudflare R2 storage.
-- **Unified Mobile Backend** – Multi-platform support powering native Android and iOS client integrations seamlessly.
-- **Automated Quality Gates** – Continuous test orchestration ensuring strict regression coverage across active repositories.
-- **Live System Observability** – Monotonically tracking core telemetry pulse to monitor continuous system uptime.
+
+- **Observability Platform** – End-to-end telemetry collection, analytics, and alerting powered by Cloudflare Workers.
+- **Spring Telemetry Pipeline** – Automated ingestion of application and infrastructure metrics from Spring Boot services.
+- **Real-Time Monitoring** – Interactive dashboards, incident tracking, and PagerDuty integrations.
+- **Cloud-Native Infrastructure** – Dockerized deployments, Nginx reverse proxy, and CI/CD automation.
+- **Cross-Platform Ecosystem** – Android and iOS clients connected through a unified backend platform.
 
 ## Stack
 ```text
-Mobile Clients   Kotlin (Android) • Jetpack Compose • SwiftUI (iOS)
-Core Backend     Java 21 • Spring Boot 3 • PostgreSQL • JPA / Hibernate
-Frontend & Web   TypeScript • Astro Framework • React Components
-Edge Computing   Cloudflare Workers • Cloudflare D1 • Cloudflare R2
-Infrastructure   Docker Containers • Nginx Reverse Proxy • GitHub Actions CI/CD
-Observability    Telemetry Ingestion • Micrometer Metrics • Live SVG Pipelines
+Mobile          Kotlin (Android) • Jetpack Compose • SwiftUI
+Backend         Java 21 • Spring Boot 3 • PostgreSQL • Hibernate
+Frontend        TypeScript • Astro • React
+Edge Platform   Cloudflare Workers • D1 • R2
+Infrastructure  Docker • Nginx • GitHub Actions
+Observability   Micrometer • Spring Actuator • Telemetry • Alerting
 ```
 
