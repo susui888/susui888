@@ -141,22 +141,21 @@
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
 ### Infrastructure Highlights
-
-- Edge analytics pipeline using Cloudflare Workers + D1
-- Live telemetry ingestion from Spring Boot Actuator
-- Containerized deployment with Docker and Nginx
-- CDN-backed static delivery via Cloudflare R2
-- Native Android/iOS clients sharing unified backend services
+- **Edge Telemetry Ingestion** – Real-time metrics tracking powered by Cloudflare Workers and D1 database.
+- **Spring Actuator Pipeline** – Live operational diagnostics broadcasted directly from core server nodes.
+- **Containerized Architecture** – Predictable microservice deployment pipelines built via Docker and Nginx.
+- **Optimized Content Delivery** – Low-latency asset streaming backed by globally distributed Cloudflare R2 storage.
+- **Unified Mobile Backend** – Multi-platform support powering native Android and iOS client integrations seamlessly.
+- **Automated Quality Gates** – Continuous test orchestration ensuring strict regression coverage across active repositories.
+- **Live System Observability** – Monotonically tracking core telemetry pulse to monitor continuous system uptime.
 
 ### Technical Stack
-
-
 ```text
-Mobile          Kotlin • Jetpack Compose • SwiftUI
-Backend         Java • Spring Boot • PostgreSQL • REST APIs
-Frontend        TypeScript • Astro
-Cloud & Edge    Cloudflare Workers • D1 • R2 • CDN
-Platform        Docker • Nginx • GitHub Actions • CI/CD
-Observability   Telemetry Pipelines • Metrics • Logging
+Mobile Clients   Kotlin (Android) • Jetpack Compose • SwiftUI (iOS)
+Core Backend     Java 21 • Spring Boot 3 • PostgreSQL • JPA / Hibernate
+Frontend & Web   TypeScript • Astro Framework • React Components
+Edge Computing   Cloudflare Workers • Cloudflare D1 • Cloudflare R2
+Infrastructure   Docker Containers • Nginx Reverse Proxy • GitHub Actions CI/CD
+Observability    Telemetry Ingestion • Micrometer Metrics • Live SVG Pipelines
 ```
 
