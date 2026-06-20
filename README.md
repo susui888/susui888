@@ -130,14 +130,14 @@
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
-### PLATFORM TELEMETRY
+### PLATFORM
 
 <p align="left"><a href="https://ryansu.uk/analytics/infrastructure/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-spring.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
 
-### DEVELOPMENT METRICS
+### DEVELOPMENT
 <p><a href="https://ryansu.uk/analytics/github/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-github.svg" alt="GitHub Telemetry Monitor" width="560" /></a></p>
 
-### SYSTEM INCIDENTS
+### INCIDENTS
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
 ### Infrastructure Highlights
