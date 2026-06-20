@@ -140,15 +140,6 @@
 ### SYSTEM INCIDENTS
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
-### SYSTEM INCIDENTS
-<p>
-  <a href="https://ryansu.uk/analytics/incidents/">
-    <object type="image/svg+xml" data="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" width="560" style="pointer-events: none;">
-      <img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" />
-    </object>
-  </a>
-</p>
-
 ### Infrastructure Highlights
 
 - Edge analytics pipeline using Cloudflare Workers + D1
