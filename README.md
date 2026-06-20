@@ -1,4 +1,4 @@
-### Ryan Su
+## Ryan Su
 <img src="https://ryansu.uk/assets/img/pikachuR.png" width="50" align="right">
 
 *Software Engineer specializing in mobile, backend, and cloud platforms. Built CoolLib, a distributed system combining native Android/iOS applications, Spring Boot microservices, Cloudflare edge infrastructure, real-time telemetry, and automated CI/CD delivery.*
@@ -14,7 +14,7 @@
 
 ---
 
-### System Architecture
+## Architecture
 
 ```mermaid
  flowchart LR
@@ -130,17 +130,17 @@
                 linkStyle default stroke:#94a3b8,stroke-width:1.5px
 ```
 
-### PLATFORM
+## PLATFORM
 
 <p align="left"><a href="https://ryansu.uk/analytics/infrastructure/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-spring.svg" alt="Infrastructure Mini Monitor" width="560" /></a></p>
 
-### DEVELOPMENT
+## DEVELOPMENT
 <p><a href="https://ryansu.uk/analytics/github/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-github.svg" alt="GitHub Telemetry Monitor" width="560" /></a></p>
 
-### INCIDENTS
+## INCIDENTS
 <p><a href="https://ryansu.uk/analytics/incidents/"><img src="https://telemetry-svg.susui888.workers.dev/api/telemetry-alerts.svg" alt="System Incidents" width="560" /></a></p>
 
-### Infrastructure Highlights
+## Infrastructure Highlights
 - **Edge Telemetry Ingestion** – Real-time metrics tracking powered by Cloudflare Workers and D1 database.
 - **Spring Actuator Pipeline** – Live operational diagnostics broadcasted directly from core server nodes.
 - **Containerized Architecture** – Predictable microservice deployment pipelines built via Docker and Nginx.
@@ -149,7 +149,7 @@
 - **Automated Quality Gates** – Continuous test orchestration ensuring strict regression coverage across active repositories.
 - **Live System Observability** – Monotonically tracking core telemetry pulse to monitor continuous system uptime.
 
-### Technical Stack
+## Technical Stack
 ```text
 Mobile Clients   Kotlin (Android) • Jetpack Compose • SwiftUI (iOS)
 Core Backend     Java 21 • Spring Boot 3 • PostgreSQL • JPA / Hibernate
