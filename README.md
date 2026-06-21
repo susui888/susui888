@@ -1,7 +1,7 @@
 ## Ryan Su
 <img src="https://ryansu.uk/assets/img/pikachuR.png" width="50" align="right">
 
-*Software Engineer specializing in mobile, backend, and cloud platforms. Built CoolLib, a distributed system combining native Android/iOS applications, Spring Boot microservices, Cloudflare edge infrastructure, real-time telemetry, and automated CI/CD delivery.*
+**Software Engineer specializing in mobile, backend, and cloud platforms. Built CoolLib, a distributed system combining native Android/iOS applications, Spring Boot microservices, Cloudflare edge infrastructure, real-time telemetry, and automated CI/CD delivery.**
 
 <p align="left">
   <a href="https://ryansu.uk/demo/android-demo/"><img src="https://img.shields.io/badge/Android-UI_Demo-3DDC84?style=flat-square&logo=android&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ryansu.uk/demo/ios-demo/"><img src="https://img.shields.io/badge/iOS-UI_Demo-007AFF?style=flat-square&logo=apple&logoColor=white"/></a>
