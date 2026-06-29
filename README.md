@@ -31,7 +31,7 @@
                 end
 
                 subgraph Docker ["`**Docker Infrastructure**`"]
-                E("`**<span style='font-size:2em;color:white;'>Spring<br>Boot</span>**`")
+                E("`**Spring<br>Boot**`")
                 H[(Postgre\nSQL)]
                 end
 
